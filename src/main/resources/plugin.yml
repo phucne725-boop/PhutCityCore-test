@@ -1,0 +1,17 @@
+name: PhutCityCore
+version: 0.0.2-test
+main: vn.phutcity.core.PhutCityCore
+api-version: "26.3"
+softdepend: [floodgate, Geyser-Spigot]
+commands:
+  pctest:
+    description: Kiem tra moi truong server
+    usage: /pctest
+    permission: phutcity.admin
+  phone:
+    description: Mo dien thoai
+    usage: /phone [esc|inv]
+permissions:
+  phutcity.admin:
+    description: Quyen Admin
+    default: op
